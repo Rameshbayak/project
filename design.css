@@ -1,0 +1,285 @@
+.body-class{
+    
+    width: 1000px;
+    display: block;
+    margin:auto;
+}
+
+.food-table{
+    float:left;
+    width:30%;
+
+}
+.for-MyOrder{
+    float:right;
+    width: 70%;
+    padding:10%;
+    
+    
+}
+
+<!-- For the save button to download the bill-->
+.btn {
+  background-color:DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+,
+
+
+<!----  For the image with Nav
+iagtion at TOP ---->
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+<!--End for the top nav with IMAGE --->
+
+<!-- For the name of the customers-->
+
+.carousel-inner .carousel-caption d-none d-md-block .display-4{
+    
+    color: green;
+}
+
+<!-- End-->
+
+
+ /* style for the  Horizontal tab part */
+ 
+ 
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color:#3A6791;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color:#79bbb9;
+  height:60px;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #79bbb9;
+  height:60px;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* For the image part of the menu */
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body, html {
+  height:#FFFFFF 50%;
+  margin: 0;
+  font-family: italics;
+}
+
+/*Code for Horizontal tab ended*/
+
+
+
+
+/*Code for the  food images display in the main page*/
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+/*CSS for the Accordion*/
+.accordion{
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+<!-- For the Search bar in the tab and tabcontent ---> 
+
+
+.tab .forLeft{
+    float:left;
+    
+}
+.tab .forRight .search-container {
+   float: right;
+
+}
+
+
+.tab input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.tab .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+}
+
+ 
+
+.tab .search-container button:hover {
+  background: #ccc;
+
+}
+
+@media screen and (max-width: 600px) {
+  .tab .search-container {
+    float: none;
+  }
+  .tab a, .tab input[type=text], .tab .search-container button {
+    float: left;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .tab input[type=text] {
+    border: 1px solid #ccc;  
+  }
+  
+ .tab .forRight .search-container {
+   
+   float:none;
+    
+ }
+ 
+
+}
+
+
+<!-- -End for the tab and the tabcontent->
+
+<!--Style for the top image and navigation items --->
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+<!--END -->
+
+
+
